@@ -1,0 +1,38 @@
+.main_nav{
+    background-image: linear-gradient( to right bottom , rgb(119, 154, 244)50%, rgb(113, 192, 234)30%) ;
+    width:100vw;
+    height: fit-content;
+    display: flex;
+}
+.my_name{
+    height: 60px;
+    width: fit-content;
+    
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   padding-left: 10px;
+}
+.my_socials{
+
+    height: fit-content;
+    display: flex;
+   flex-grow: 1;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+.im{
+    height: 35px;
+    width: 35px;
+    padding-right: 10px;
+   
+}
+
+.tolink{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-end;
+   align-content: flex-end;
+}

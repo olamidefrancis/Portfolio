@@ -1,0 +1,77 @@
+.main_intro{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-content: flex-end;
+background-image: linear-gradient( to right top , rgb(119, 154, 244)50%, rgb(113, 192, 234)30%) ;
+color: white;
+width: 100dvw;
+height: 310px;
+}
+.intro1{
+    display: flex;
+   
+    justify-content: center;
+    align-content: center; 
+}
+.intro_img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2px;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: fit-content;
+}
+.ola_face{
+    border-radius: 50%; 
+    height: 150px;
+    width: 150px;
+}
+.intro_names{
+ line-height: 0.6;
+ padding-left: 10px;
+}
+.haven{
+    color: black;
+    font-weight: bold;
+}
+.intro2{
+    display: flex;
+    margin-left: 250px;
+    justify-content: center;
+    align-content: center; 
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    flex-direction: column;
+    line-height: 0.2;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    flex-direction: column;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    flex-direction: column;
+    padding-left: 30px;
+    line-height: 0.2;
+}
+.emailwith_ic{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+.email_icon{
+    height: 40px;
+    width: 40px;  
+}
+.olafran{
+    text-decoration: underline;
+}
