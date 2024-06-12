@@ -67,6 +67,34 @@ class Project extends Component{
       
                            </div>
 
+                           <div className='smart_brain'>
+                                <div className='title'>
+                                         <p>NASA-PROJECT</p>   
+                                </div>
+
+                                 <div className='link'> 
+                                    <Link className='tohaven' to='https://github.com/olamidefrancis/Smart-Brain'>NASA-PROJECT
+                                    </Link>
+                                 </div>
+                                              
+                                 <div className='description'>
+                                                
+                                        <p className='my_dis'>Description</p>
+                                                
+                                        <div className='dis_words'>
+                                                
+                                        <p> Used the Express framework with the Model-View-Controller (MVC) pattern to set up the Express server.</p>
+                                        <p> Developed the   API using Node.js and integrated it with a downloaded frontend React application created by NASA.</p>
+                                        <p> Set up a Mongo database with MongoDB Atlas</p>
+                                        <p>Created a CI pipeline using GitHub Actions which automates the workflows</p>
+                                        <p> Ran the application in a docker container</p>
+                                        <p>Set up and managed the application server by effectively utilizing the EC2 instance AWS server.</p>
+                                                                        
+                                        </div>
+                                 </div>
+      
+                           </div>
+
                     </div>
 
             </div>
